@@ -1,0 +1,74 @@
+ul li {
+    list-style-type: none;
+    border-bottom: 2px solid #B30048;
+    padding: 15px;
+
+}
+
+.hamburger,
+.exit-responsive {
+    display: block;
+    font-size: 25px;
+    padding-top: 5%;
+}
+
+.hamburger {
+    margin: 0 0 0 45px;
+    position: fixed;
+    padding-top: 5%;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #B30048;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    transition: 300ms left cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.menu ul a {
+    font-size: 30px;
+    text-align: right;
+    width: 20%;
+    text-decoration: none;
+    color: white;
+}
+
+.show {
+    display: block;
+    width: 30%;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    transition: 300ms left cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+
+
+// Name Sticky on right side of the screen
+
+.sidesticky {
+    background: #B30048;
+    height: 100vh;
+    width: 10%;
+    top: 0;
+    right: 0;
+    position: fixed;
+    padding: 0;
+}
+
+.sidesticky p {
+    transform: rotate(-90deg);
+    font: bold 12px Sans-Serif;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 62px 0px;
+}
