@@ -34,8 +34,8 @@
         </div>   
         
         <!-- header -->
-        <header class="highlight">
-            <div class="content" id="home">
+        <header class="main-header">
+            <div class="main-header-content" id="home">
                 <h1 class="name">
                     <span>E</span>
                     <span>v</span>
@@ -69,74 +69,114 @@
     <!-- about me page -->
     <section class ="container">
         <section class="about" id="about">
-            <div>
-                <h2>About me</h2>
-                <div class="about-content">
-                    <div class="my-photo">
-                        <img src="./assets/phot.jpg" alt="photo of Chitra Shah in sitting on chair">
-                    </div>
-                    <div class="detail-para"
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut tempora ducimus eos maiores
-                        nemo repellat animi id numquam natus, ipsam ullam veritatis beatae cum. Culpa impedit ab eum quibusdam
-                        nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut tempora ducimus eos maiores nemo
-                        repellat animi id numquam natus, ipsam ullam veritatis beatae cum. Culpa impedit ab eum quibusdam nobis.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut tempora ducimus eos maiores nemo repellat
-                        animi id numquam natus, ipsam ullam veritatis beatae cum. Culpa impedit ab eum quibusdam nobis.Lorem
-                        ipsum dolor sit amet consectetur adipisicing elit. Aut tempora ducimus eos maiores nemo repellat animi
-                        id numquam natus, ipsam ullam veritatis beatae cum. Culpa impedit ab eum quibusdam nobis.
-                        </p>
-                        <button>See All History</button>
-                    </div>
+            <h2>About me</h2>
+            <div class="about-content">
+                <div class="my-photo-left">
+                    <img src="./assets/phot.jpg" alt="photo of Chitra Shah in sitting on chair">
                 </div>
-                
+                <div class="detail-para-right"
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut tempora ducimus eos maiores
+                    nemo repellat animi id numquam natus, ipsam ullam veritatis beatae cum. Culpa impedit ab eum quibusdam
+                    nobis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut tempora ducimus eos maiores nemo
+                    repellat animi id numquam natus, ipsam ullam veritatis beatae cum. Culpa impedit ab eum quibusdam nobis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut tempora ducimus eos maiores nemo repellat
+                    animi id numquam natus, ipsam ullam veritatis beatae cum. Culpa impedit ab eum quibusdam nobis.Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Aut tempora ducimus eos maiores nemo repellat animi
+                    id numquam natus, ipsam ullam veritatis beatae cum. Culpa impedit ab eum quibusdam nobis.
+                    </p>
+                    <button>See All History</button>
+                </div>
             </div>
+            
         </section> 
 
+        <!-- works featured section -->
+        <section class="projects">
+            <h2>My Works</h2>
+
+            <div class="box-box">
+                <div class="box1-text">
+                    <h3>Javascript Project</h3>
+                    <h4>Tense Match</h4>
+                    <p>A simple matching game of verb tenses</p>
+                    <p>JavaScript(ES6), JQuery, HTML5, CSS, Sass, Responsive Design</p>
+                </div>
+                <div class="image-box1">
+                    <img src="./assets/02-project.png" alt="">
+                </div>
+            </div>
+
+            <div class="box-box">
+                <div class="box2-text">
+                    <h3>API & JQuery Pair Project</h3>
+                    <h4>Are they working today?</h4>
+                    <p>Application that identifies whether the current date is a working day or a national holiday in over 200 countries</p>
+                    <p>JavaScript, JQuery, HTML5, CSS, Sass, Responsive Design, APIs, Accessible Design.</p>
+                </div>
+                <div class="image-box2">
+                    <img src="./assets/04-project.png" alt="">
+                </div>
+            </div>
+            <div class="box-box">
+                <div class="box3-text">
+                    <h3>React & API Project</h3>
+                    <h4>Abbiocco</h4>
+                    <p>The title refers to the feeling of fullness after a satisfying meal. This is a vegan and vegetarian recipe generator.</p>
+                    <p>React, Dom Manipulation, CSS, Sass, Responsive Design, Accessible Design.</p>
+                </div>
+                <div class="image-box3">
+                    <img src="./assets/06-project.png" alt="">
+                </div>
+            </div>
+            <div class="box-box">
+                <div class="box4-text">
+                    <h3>React, API, & Firebase Group Project</h3>
+                    <h4>Superfood Navigator</h4>
+                    <p>A nutrition facts generator. Allows the user to also save commonly searched food facts.</p>
+                </div>
+                <div class="image-box4">
+                    <img src="./assets/08-project.png" alt="">
+                </div>
+            </div>
+            <div class="gallery">
+                <img class="more" src="./assets/01-project.png"
+                        alt="tense match, a verb matching game">
+                <img src="./assets/03-project.png" alt="Are they working in?, a working day confirmation generator">
+                <img src="./assets/05-project.png" alt="abbiocco, a vegan and vegetarian recipe generator">
+                <img src="./assets/07-project.png" alt="superfoods navigator, a nurtrition facts generator">
+                <button>Previous</button>
+                <button>Next</button>
+            </div>
+
+        </section>
+
+
         <!-- my history section -->
-        <section class="history">
+        <!-- <section class="history">
             <div class="box">
                 <h2>My History</h2>
                 <h4>Title of Project</h4>
                 <p>brief description</p>
                 <button>Previous</button>
                 <button>Next</button>
-                <p>03/05</p>
             </div>
-        </section>
-
-
-        <!-- works featured section -->
-        <section class="projects">
-            <h2>My Works</h2>
-            <div class="box">
-                <h4>Title of Project</h4>
-                <p>brief description</p>
-                <button>Previous</button>
-                <button>Next</button>
-                <p>04/05</p>
-            </div>
-            <div class="gallery">
-                <img src="#" alt="">
-                <img src="#" alt="">
-                <img src="#" alt="">
-                <img src="#" alt="">
-            </div>
-        </section>
-
+        </section> -->
 
         <!-- contact me page -->
-        <section class="contact">
+        <!-- <section class="contact">
             <h2>Get in Touch</h2>
             <p>05/05</p>
-        </section>
+        </section> -->
+
+
+        <!-- <footer class="footer">
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-twitter"></i>
+            <p>Icons by FontAwesome</p>
+        </footer> -->
+
 
     </section>
-
-    <footer class="footer">
-        <i class="fab fa-linkedin-in"></i>
-        <i class="fab fa-twitter"></i>
-        <p>Icons by FontAwesome</p>
-    </footer>
 
 
 

@@ -1,16 +1,40 @@
 .about-content {
     display: flex;
-    border: 1px solid white;
-    flex: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-
-.detail-para {
-    width: 40%;
+.my-photo-left {
+    width: 50%;
     text-align: justify;
-    padding: 10px;
 }
 
-.my-photo {
-    width: 40%;
+.my-photo-left img {
+    width: 70%;
 }
+
+.detail-para-right {
+    width:  50%
+}
+
+.about h2 {
+    justify-content: center;
+}
+
+.box-box1{
+    display: flex;
+}
+.box-text,
+.box-img {
+    width: 50%;
+}
+
+.box-img img {
+    width: 50%;
+}
+
+
+.gallery {
+    display: flex;
+}
+

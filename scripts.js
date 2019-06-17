@@ -7,4 +7,11 @@ $(document).ready(function () {
     $('.exit-responsive').on('click', function () {
         $('.menu').toggleClass('show');
     });
+
+    $('.more').on('click', function () {
+        $('.box-box1').toggleClass('expand');
+    });
+
+
+
 });
