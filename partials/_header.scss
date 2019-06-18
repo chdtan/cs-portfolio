@@ -9,6 +9,7 @@ html {
 body {
     height: 100vh;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 section {
@@ -24,7 +25,7 @@ section {
     margin-right: 10%;
 }
 
-.container {
+.full-page {
     width: 80%;
     border: 1px solid yellowgreen;
     margin-left: 10%;

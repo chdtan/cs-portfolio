@@ -1,58 +1,63 @@
-.projects {
-    height: 100vh;
-}
-
-.box-box1,
-.box-box2,
-.box-box3,
-.box-box4 {
-    display: flex;
+.box-box {
+    // height: 100vh;
+    display: none;
     border: 1px solid white;
 }
 
-// .box-box1,
-// .box-box2,
-// .box-box3,
-// .box-box4 {
-//     display: none;
+box1-text,
+box2-text,
+box3-text,
+box4-text {
+    width: 50%;
+}
+
+
+// .image-box1 img,
+// .image-box2 img,
+// .image-box3 img,
+// .image-box4 img {
+//     width: 75%;
+//     height: 75%;
 // }
 
 
 
+// // .boxes {
+// //     display: flex;
+// //     border: 1px solid white;
+// // }
 
-.box1-text,
-.image-box1 {
-    width: 50%;
-}
 
-.box2-text,
-.image-box2{
-    width: 50%;
-    
-}
+// .box1-text,
+// .image-box1 {
+//     width: 50%;
+//     display: none;
+// }
 
-.box3-text,
-.image-box3 {
-    width: 50%;
-    
-}
+// .box2-text,
+// .image-box2{
+//     width: 50%;
+//     display: none;
+// }
 
-.box4-text,
-.image-box4 {
-    width: 50%; 
-}
+// .box3-text,
+// .image-box3 {
+//     width: 50%;
+//     display: none;
+// }
 
-.image-box1 img,
-.image-box2 img,
-.image-box3 img,
-.image-box4 img {
-    width: 75%;
-}
+// .box4-text,
+// .image-box4 {
+//     width: 50%;
+//     display: none;
+// }
+
+
 
 .gallery {
     display: flex;
 }
 
 .expand {
-    display: initial;
+    display: block;
 }

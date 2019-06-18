@@ -14,27 +14,11 @@
 }
 
 .detail-para-right {
-    width:  50%
+    width:  50%;
+    // overflow: hidden;
 }
 
 .about h2 {
     justify-content: center;
-}
-
-.box-box1{
-    display: flex;
-}
-.box-text,
-.box-img {
-    width: 50%;
-}
-
-.box-img img {
-    width: 50%;
-}
-
-
-.gallery {
-    display: flex;
 }
 

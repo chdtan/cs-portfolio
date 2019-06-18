@@ -26,9 +26,9 @@
                 <li class="exit-responsive"><i class="fas fa-times"></i></li>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Me</a></li>
-                <li><a href="#">My History</li>
-                <li><a href="#">My Work</a></li>
-                <li><a href="#">Get in Touch</a></li>
+                <li><a href="#history">My History</li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#contact">Get in Touch</a></li>
             </ul>
             </div>
         </div>   
@@ -67,7 +67,7 @@
     
 
     <!-- about me page -->
-    <section class ="container">
+    <section class ="full-page">
         <section class="about" id="about">
             <h2>About me</h2>
             <div class="about-content">
@@ -91,10 +91,10 @@
         </section> 
 
         <!-- works featured section -->
-        <section class="projects">
+        <section class="projects" id="work">
             <h2>My Works</h2>
 
-            <div class="box-box">
+            <div class="box-box" id="box01">
                 <div class="box1-text">
                     <h3>Javascript Project</h3>
                     <h4>Tense Match</h4>
@@ -104,9 +104,10 @@
                 <div class="image-box1">
                     <img src="./assets/02-project.png" alt="">
                 </div>
-            </div>
+            </div>    
+            
 
-            <div class="box-box">
+            <div class="box-box" id="box02">
                 <div class="box2-text">
                     <h3>API & JQuery Pair Project</h3>
                     <h4>Are they working today?</h4>
@@ -117,7 +118,10 @@
                     <img src="./assets/04-project.png" alt="">
                 </div>
             </div>
-            <div class="box-box">
+
+
+
+            <div class="box-box" id="box03">
                 <div class="box3-text">
                     <h3>React & API Project</h3>
                     <h4>Abbiocco</h4>
@@ -128,22 +132,26 @@
                     <img src="./assets/06-project.png" alt="">
                 </div>
             </div>
-            <div class="box-box">
+
+
+            <div class="box-box" id="box04">
                 <div class="box4-text">
                     <h3>React, API, & Firebase Group Project</h3>
                     <h4>Superfood Navigator</h4>
                     <p>A nutrition facts generator. Allows the user to also save commonly searched food facts.</p>
+                    <p>React, Firebase, CSS, Sass, Responsive Design, Accessible Design.</p>
                 </div>
                 <div class="image-box4">
                     <img src="./assets/08-project.png" alt="">
                 </div>
             </div>
+            
+            
             <div class="gallery">
-                <img class="more" src="./assets/01-project.png"
-                        alt="tense match, a verb matching game">
-                <img src="./assets/03-project.png" alt="Are they working in?, a working day confirmation generator">
-                <img src="./assets/05-project.png" alt="abbiocco, a vegan and vegetarian recipe generator">
-                <img src="./assets/07-project.png" alt="superfoods navigator, a nurtrition facts generator">
+                <img data-detail="box01" src="./assets/01-project.png" alt="tense match, a verb matching game">
+                <img data-detail="box02" src="./assets/03-project.png" alt="Are they working in?, a working day confirmation generator">
+                <img data-detail="box03" src="./assets/05-project.png" alt="abbiocco, a vegan and vegetarian recipe generator">
+                <img data-detail="box04" src="./assets/07-project.png" alt="superfoods navigator, a nurtrition facts generator">
                 <button>Previous</button>
                 <button>Next</button>
             </div>
@@ -152,21 +160,98 @@
 
 
         <!-- my history section -->
-        <!-- <section class="history">
-            <div class="box">
-                <h2>My History</h2>
-                <h4>Title of Project</h4>
-                <p>brief description</p>
-                <button>Previous</button>
-                <button>Next</button>
-            </div>
-        </section> -->
+        <section class="history" id="history">    
+            <h2>My History</h2>
+            <div class="timeline">
+                <div class="container1 left"> 
+                    <div class="content">
+                        <span class="icon fa fa-user"></span>
+                        <h5>Technology Talent Acquisition Specialist & Immigration Consultant</h5>
+                        <h4>AndiamoGo, Toronto, ON</h4>
+                        <p class="dates">September 2018 - January 2019</p>
+                        <p>Conduct full life cycle recruitment of technology executives and professionals for tech firms and top financial institutions. e.g. Bloomberg, Amazon , HBO, Two Sigma, and more.</p>
+                        <p>Provide subject matter expertise on Immigration company-wide to assess visa feasibility based on candidate profiles.</p>
+                    </div>
+                </div>   
+            
+                <div class="container1 right">
+                    <div class="content">
+                        <span class="icon fa fa-coffee"></span>
+                        <h5>HR Expert/ US Immigration Specialist</h5>
+                        <h4>Bloomberg L.P.</h4>
+                        <h4>New York, NY</h4>
+                        <p class="dates">May 2017 - September 2018</p>
+                        <p>Served as direct contact to over 3000+ employees and various government agencies on behalf of Bloomberg LP.</p>
+                        <p>Partnered with HR Business Partners and Recruiting on complex immigration matters and provide strategic immigration/ mobility analysis.</p>
+                    </div>
+                </div>
 
-        <!-- contact me page -->
-        <!-- <section class="contact">
-            <h2>Get in Touch</h2>
-            <p>05/05</p>
-        </section> -->
+                <div class="container1 left">
+                    <div class="content">
+                        <span class="icon fa fa-user"></span>
+                        <h5>Business Immigration/Global Mobility Specialist</h5>
+                        <h4>GEP Worldwide</h4>
+                        <h4>Clark, New Jersey</h4>
+                        <p class="dates">February 2015 - May 2017</p>
+                        <p>Single company wide point-of-contact for legal and immigration law related matters under direct
+                        supervision of General Counsel for global force of 2000+ employees.</p>
+                        <p>Provided guidance to senior management on all immigration related matters.</p>
+                    </div>
+                </div>
+
+
+                <div class="container1 right">
+                    <div class="content">
+                        <span class="icon fa fa-coffee"></span>
+                        <h5>Immigration Paralegal</h5>
+                        <h4>Bloomberg L.P.</h4>
+                        <p class="dates">August 2012 - January 2015</p>
+                        <p>End to end preparation of petitions for filings before USCIS and direct consular filings at U.S.
+                        consulates abroad.</p>
+                        <p>SME to the law firm on DACA filings based on program introduced in 2012 by President Obama. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <!-- contact me page -->
+
+        <section class="contact-page" id="contact">
+            <div class="follow">
+                <h2>Follow Me</h2>
+                <p>Twitter</p>
+                <a href=""></a>
+                <p>LinkedIn</p>
+                <a href=""></a>
+                <p>Github</p>
+                <a href=""></a>
+            </div>
+   
+
+            <div class="contact">
+                <h2>Contact</h2>
+                <h3>Let's talk! Get in Touch Here</h3>
+                <div>
+                    <form method="POST" action=""></form>
+                </div>
+                <div>
+                    <label for="name">Your name</label>
+                    <input type="text" name="name" id="name" placeholder="Full Name">
+                </div>
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" placeholder="Your Email">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea rows="4" cols="50" name="message" placeholder="Message">
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+
+        </section>  
 
 
         <!-- <footer class="footer">
