@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CDS Portfolio</title>
+    <title>Chitra Shah's Portfolio</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto:300i&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Roboto:300i&display=swap"rel="stylesheet">
     
 </head>
 
@@ -21,7 +21,7 @@
     <section class="wrapper">
         <div>
             <div>
-                <p class="hamburger"><i class="fas fa-bars"></i></p>
+                <p class="hamburger" tabindex="1"><i class="fas fa-bars"></i></p>
                 <div class="menu">
                     <ul>
                         <li class="exit-responsive"><i class="fas fa-times"></i></li>
@@ -36,7 +36,7 @@
             
             <header class="main-header">
                 <div class="main-header-content" id="home">
-                    <h1 class="name">
+                    <h1 class="tracking-in-contract">
                         <span>E</span>
                         <span>v</span>
                         <span>e</span>
@@ -68,7 +68,7 @@
 
         <!-- about me page -->
         <section class="full-page">
-            <section class="about" id="about">
+            <section class="about" tabindex="0" id="about">
                 <h2>About me</h2>
                 <div class="about-content">
                     <div class="my-photo-left">
@@ -89,7 +89,7 @@
             </section> 
 
             <!-- works featured section -->
-            <section class="projects" id="work">
+            <section class="projects" tabindex="0" id="work">
                 <h2>My Works</h2>
 
                 <div class="section--portfolio-two-col-right">
@@ -165,7 +165,7 @@
 
     
             <section class="toolbox">
-                <div class="title">
+                <div class="title" tabindex="0">
                     <h2>ToolBox</h2>
                 </div>
                 <div class="section--tech-skills-icons">
@@ -230,7 +230,7 @@
 
             
             <section class="contact-page">
-                <div class="container2">
+                <div class="container2" tabindex="0">
                     <div class="follow">
                         <h2>Follow Me</h2>
                         <p>Twitter</p>
@@ -249,14 +249,14 @@
                             <h2>Contact Me</h2>
 
                             <fieldset>
-                                <input name="name" placeholder="Your name" type="text" tabindex="1" required autofocus/>
+                                <input name="name" placeholder="Your name" type="text" tabindex="0" required/>
                             </fieldset>
                             <fieldset>
-                                <input name="email" placeholder="Your Email Address" type="email" tabindex="2" required/>
+                                <input name="email" placeholder="Your Email Address" type="email" tabindex="0" required/>
                             </fieldset>
 
                             <fieldset>
-                                <textarea name="message" placeholder="Type your message here...." tabindex="5" required></textarea>
+                                <textarea name="message" placeholder="Type your message here...." tabindex="0" required></textarea>
                             </fieldset>
                             <fieldset>
                                 <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">
