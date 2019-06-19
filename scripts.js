@@ -1,3 +1,5 @@
+console.log('working');
+
 $(document).ready(function () {
     console.log('ready');
     $('.hamburger').on('click', function () {
@@ -8,21 +10,10 @@ $(document).ready(function () {
         $('.menu').toggleClass('show');
     });
 
-    // $("body").click(function (e) {
-    //     if (e.target.class !== '.exit-responsive') {
-    //         $(".menu").hide();
-    //     }
+    // $('.gallery img').on('click', function (click) {
+    //     const details = $(this).data("detail");
+    //     const detailsID = "#" + details;
+    //     $(detailsID).toggleClass("expand");
     // });
-
-    // const imageArray = []
-
-
-    $('.gallery img').on('click', function (click) {
-        const details = $(this).data("detail");
-        const detailsID = "#" + details;
-        $(detailsID).toggleClass("expand");
-    });
-
-
     
 });
