@@ -1,0 +1,205 @@
+// @media (max-width:801px) {
+//     // .content-left {
+//     //     width: initial;
+//     // }
+
+//     // .wrapper-main-content {
+//     //     flex-direction: column;
+//     //     flex-basis: 1px;
+//     // }
+
+//     // h1,
+//     // p {
+//     //     flex-basis: 100%;
+//     // }
+
+//     // .deck-container {
+//     //     height: 100vh;
+//     //     width: auto;
+//     // }
+
+//     // ul.deck {
+//     //     height: 59%;
+//     //     width: 95%;
+//     // }
+// }
+
+// @media (max-width:600px) {
+//     // .deck-container {
+//     //     height: 100vh;
+//     //     width: 80vw;
+//     // }
+
+//     // .deck {
+//     //     height: 60%;
+//     //     width: 100%;
+//     // }
+// }
+
+// @media (max-width:480px) {
+//     // .deck-container {
+//     //     height: 100vh;
+//     //     width: 85vw;
+//     // }
+
+//     // ul.deck {
+//     //     height: 60%;
+//     //     width: 90%;
+//     //     margin: 0 auto;
+//     //     padding-top: 25px;
+
+//     // }
+
+//     // .card {
+//     //     width: 25%;
+//     // }
+// }
+
+
+// @media (max-width: 420px) {
+//     p {
+//         display: none;
+//     }
+// }
+
+@media (max-width:320px) {
+    // .wrapper-main-content {
+    //     flex-direction: column;
+    // }
+
+    // .deck-container {
+    //     height: 100vh;
+    //     width: 100vw;
+    //     flex-direction: column;
+    // }
+
+    // ul.deck {
+    //     height: 50%;
+    //     width: 100%;
+    // }
+
+    .main-header-content {
+        height: auto;
+    }
+
+    h1 {
+        margin: 15% 0 24% 24%;
+        border: 10px solid #B30048;
+        width: 167px;
+        height: 280px;
+        font-size: 10.5vw;
+    }
+
+    .sidesticky {
+        width: 14%;
+    }
+
+    .sidesticky p {
+        font-size: 3.5vw;
+    }
+
+    .show {
+        width: 86%;
+        clip-path: none;
+        height: auto;
+    }
+
+    .menu {
+        background: rgba(0, 0, 0, 1);
+    }
+
+    .fa-bars {
+        margin-top: 22px;
+    }
+
+    .about h2,
+    .projects h2,
+    .title h2,
+    .contact-me h2 {
+        font-size: 7vw;
+        margin: 18% 0 15% 0;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .my-photo-left {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .my-photo-left img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .detail-para-right {
+        width: auto;
+        margin: 0 auto;
+    }   
+
+    span {
+    font-size: 6vw;
+    }
+
+
+    .detail-para-right {
+        margin: 0px 15px;
+        text-align: center;
+    }
+
+    .section--portfolio-two-col-right {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .section--portfolio-two-col-left {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .section--portfolio-text-buttons,
+    .section--portfolio-image {
+        width: 100%;
+    }
+
+    .button-portfolio-right,
+    .button-portfolio-left {
+        display: block;
+    }
+
+    .contact-page {
+        flex-direction: column;
+    }
+
+    .follow {
+        margin: 0;
+        width: initial;
+    }
+
+    .follow h2,
+    .contact h2 {
+        font-size: larger;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    .contact textarea {
+        width: auto;
+    }    
+
+    
+    .contact button[type="submit"] {
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+
+
+}

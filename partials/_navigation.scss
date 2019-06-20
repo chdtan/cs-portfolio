@@ -47,6 +47,11 @@ ul li {
     text-transform: uppercase;
 }
 
+.menu ul a:hover {
+    font-weight: bold;
+}
+
+
 .show {
     display: block;
     width: 30%;

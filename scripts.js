@@ -10,6 +10,12 @@ $(document).ready(function () {
         $('.menu').toggleClass('show');
     });
 
+    // click on a tag and toggle show 
+    $('.menu li a').on('click', function () {
+        $('.menu').toggleClass('show');
+    });
+
+
     // $('.gallery img').on('click', function (click) {
     //     const details = $(this).data("detail");
     //     const detailsID = "#" + details;
