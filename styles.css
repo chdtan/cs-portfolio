@@ -921,13 +921,7 @@ footer p {
   text-align: center;
 }
 
-@media (max-width: 600px) {
-  .sidesticky {
-    width: 10%;
-  }
-  .sidesticky p {
-    font-size: 3.5vw;
-  }
+@media (max-width: 845px) {
   .show {
     width: 86%;
     -webkit-clip-path: none;
@@ -944,7 +938,7 @@ footer p {
   .projects h2,
   .title h2,
   .contact-me h2 {
-    font-size: 7vw;
+    font-size: 5vw;
     margin: 18% 0 15% 0;
   }
   .about-content {
@@ -958,18 +952,18 @@ footer p {
     margin: 0 auto;
   }
   .my-photo-left img {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
   }
   .detail-para-right {
     width: auto;
     margin: 0 auto;
-  }
-  span {
-    font-size: 6vw;
-  }
-  .detail-para-right {
     margin: 0px 15px;
+    text-align: center;
+  }
+  .button-resume {
+    display: block;
+    font-size: .9rem;
     text-align: center;
   }
   .section--portfolio-two-col-right {
@@ -996,6 +990,37 @@ footer p {
   .button-portfolio-left {
     display: block;
   }
+  .follow h2,
+  .contact h2 {
+    font-size: larger;
+  }
+  .contact {
+    width: 100%;
+  }
+  .contact button[type="submit"] {
+    padding: 10px 30px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 625px) {
+  h1 {
+    margin: 12% 0 0 31%;
+    width: 230px;
+    height: 470px;
+  }
+  .sidesticky {
+    width: 10%;
+  }
+  .sidesticky p {
+    font-size: 3.5vw;
+  }
+  .about h2,
+  .projects h2,
+  .title h2,
+  .contact-me h2 {
+    font-size: 7vw;
+  }
   .contact-page {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1005,22 +1030,6 @@ footer p {
   .follow {
     margin: 0;
     width: initial;
-  }
-  .follow h2,
-  .contact h2 {
-    font-size: larger;
-  }
-  .contact {
-    width: 100%;
-  }
-  .contact input[type="text"],
-  .contact input[type="email"],
-  .contact textarea {
-    width: auto;
-  }
-  .contact button[type="submit"] {
-    padding: 10px 30px;
-    font-size: 1rem;
   }
 }
 
